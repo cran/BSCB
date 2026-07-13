@@ -387,23 +387,22 @@ prior</li>
 <span id="cb2-21"><a href="#cb2-21" tabindex="-1"></a>)</span>
 <span id="cb2-22"><a href="#cb2-22" tabindex="-1"></a><span class="co">#&gt; [1] Call of the function:</span></span>
 <span id="cb2-23"><a href="#cb2-23" tabindex="-1"></a><span class="co">#&gt; OptimalDesign::od_KL(Fx = design_matrix, N = n, crit = &quot;D&quot;, K = 7, </span></span>
-<span id="cb2-24"><a href="#cb2-24" tabindex="-1"></a><span class="co">#&gt;     L = 19, t.max = 5)</span></span>
+<span id="cb2-24"><a href="#cb2-24" tabindex="-1"></a><span class="co">#&gt;     L = 19, rest.max = 5, t.max = 30)</span></span>
 <span id="cb2-25"><a href="#cb2-25" tabindex="-1"></a><span class="co">#&gt; [1] Call of the function:</span></span>
 <span id="cb2-26"><a href="#cb2-26" tabindex="-1"></a><span class="co">#&gt; od_REX(Fx = Fx, crit = &quot;D&quot;, track = FALSE)</span></span>
-<span id="cb2-27"><a href="#cb2-27" tabindex="-1"></a><span class="co">#&gt; [1] Running od_D_KL for cca 5 seconds starting at 2026-07-02 17:51:33.59641.</span></span>
+<span id="cb2-27"><a href="#cb2-27" tabindex="-1"></a><span class="co">#&gt; [1] Running od_D_KL for cca 30 seconds starting at 2026-07-12 21:38:44.320388.</span></span>
 <span id="cb2-28"><a href="#cb2-28" tabindex="-1"></a><span class="co">#&gt; [1] The problem size is n=300000, m=3, N=20</span></span>
 <span id="cb2-29"><a href="#cb2-29" tabindex="-1"></a><span class="co">#&gt; [1] Setting K=7, L=19</span></span>
-<span id="cb2-30"><a href="#cb2-30" tabindex="-1"></a><span class="co">#&gt; [1] od_D_KL Time: 0.2 Value: 1.562209 Efficiency: 0.590478</span></span>
+<span id="cb2-30"><a href="#cb2-30" tabindex="-1"></a><span class="co">#&gt; [1] od_D_KL Time: 0.2 Value: 1.754445 Efficiency: 0.663139</span></span>
 <span id="cb2-31"><a href="#cb2-31" tabindex="-1"></a><span class="co">#&gt; [1] od_D_KL Time: 1 Value: 2.638816 Efficiency: 0.99741</span></span>
 <span id="cb2-32"><a href="#cb2-32" tabindex="-1"></a><span class="co">#&gt; [1] od_D_KL Time: 2 Value: 2.638816 Efficiency: 0.99741</span></span>
 <span id="cb2-33"><a href="#cb2-33" tabindex="-1"></a><span class="co">#&gt; [1] od_D_KL Time: 3 Value: 2.638816 Efficiency: 0.99741</span></span>
-<span id="cb2-34"><a href="#cb2-34" tabindex="-1"></a><span class="co">#&gt; [1] od_D_KL Time: 4 Value: 2.638816 Efficiency: 0.99741</span></span>
-<span id="cb2-35"><a href="#cb2-35" tabindex="-1"></a><span class="co">#&gt; [1] od_D_KL finished after 5.01 seconds at 2026-07-02 17:51:38.60922</span></span>
-<span id="cb2-36"><a href="#cb2-36" tabindex="-1"></a><span class="co">#&gt; [1] with 8 restarts and 357 exchanges.</span></span>
-<span id="cb2-37"><a href="#cb2-37" tabindex="-1"></a></span>
-<span id="cb2-38"><a href="#cb2-38" tabindex="-1"></a>X <span class="ot">&lt;-</span> sim_data<span class="sc">$</span>X</span>
-<span id="cb2-39"><a href="#cb2-39" tabindex="-1"></a>x <span class="ot">&lt;-</span> sim_data<span class="sc">$</span>X[,<span class="dv">2</span>]</span>
-<span id="cb2-40"><a href="#cb2-40" tabindex="-1"></a>Y <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(sim_data<span class="sc">$</span>Y.list[[<span class="dv">1</span>]])</span></code></pre></div>
+<span id="cb2-34"><a href="#cb2-34" tabindex="-1"></a><span class="co">#&gt; [1] od_D_KL finished after 3.25 seconds at 2026-07-12 21:38:47.573424</span></span>
+<span id="cb2-35"><a href="#cb2-35" tabindex="-1"></a><span class="co">#&gt; [1] with 5 restarts and 228 exchanges.</span></span>
+<span id="cb2-36"><a href="#cb2-36" tabindex="-1"></a></span>
+<span id="cb2-37"><a href="#cb2-37" tabindex="-1"></a>X <span class="ot">&lt;-</span> sim_data<span class="sc">$</span>X</span>
+<span id="cb2-38"><a href="#cb2-38" tabindex="-1"></a>x <span class="ot">&lt;-</span> sim_data<span class="sc">$</span>X[,<span class="dv">2</span>]</span>
+<span id="cb2-39"><a href="#cb2-39" tabindex="-1"></a>Y <span class="ot">&lt;-</span> <span class="fu">as.numeric</span>(sim_data<span class="sc">$</span>Y.list[[<span class="dv">1</span>]])</span></code></pre></div>
 <div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="co"># You could also generate data in the simple way</span></span>
 <span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a><span class="co"># set.seed(123)</span></span>
 <span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a><span class="co"># n &lt;- 20</span></span>
