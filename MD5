@@ -1,7 +1,7 @@
-a613b3fcdb14fafdd0dc73b51fe7ae1f *DESCRIPTION
+4bc3973f41355365c24f05e0119f845e *DESCRIPTION
 0b00b77dcbacc88735ab43d3fb19c141 *LICENSE
 6500ae20495cadc67041cdf5e92bdb1f *NAMESPACE
-8e9bafc835473a0de4408565b8db039f *NEWS.md
+6f1ea457a36d2afb3d2df879a9bf47f8 *NEWS.md
 b826e91f806bbd1cee48f6c734046f54 *R/compute_bpcb_ind_jeffreys.R
 59d528e0ec4a392c39143aad33338611 *R/compute_bscb_conjugate.R
 ed83e5a54a9fa6c587c1ce5e0404a3dc *R/compute_bscb_hmc.R
@@ -16,11 +16,11 @@ f1900cd3bd0559a64998ed7bc4515071 *R/compute_conjugate_param.R
 24626c505f92a2215662286d6083172e *build/vignette.rds
 4f52065b21254d58b115bd70fdacee30 *cleanup
 e2e64968e7947d94a4ab5c5effe6e918 *cleanup.win
-f4f06eb369971dd30d63c439334d4bb3 *inst/BSCB_1.0.1.pdf
+d244efd96f8ba55ae23bd8027f4446ce *inst/BSCB_1.0.2.pdf
 94a8677f788a8e6ca3fb629cd9b0b914 *inst/WORDLIST
 2f34ef3d5f1363d13da749c94684d6f8 *inst/doc/BSCB-vignette.R
 c6451556e9e6a3f670ef279eaaa11a8c *inst/doc/BSCB-vignette.Rmd
-83df6c7b5fe37d42a9ce3e73b3101365 *inst/doc/BSCB-vignette.html
+636f83f36c2392c67c7ba602f510632f *inst/doc/BSCB-vignette.html
 9ee9ffa4110f63dfb1f4ba269c9584d6 *inst/stan/HMC_model.stan
 454351dbf596a163d911e3be5adfd20e *man/L_SCB.Rd
 0a80166d97b30e6247ce3b06f6fdc0e9 *man/U_SCB.Rd
